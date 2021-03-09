@@ -1,9 +1,9 @@
 {
-    "name" : "多多领券",
+    "name" : "羊毛猎人",
     "appid" : "__UNI__595E8FE",
     "description" : "",
-    "versionName" : "3.1",
-    "versionCode" : 310,
+    "versionName" : "1.5",
+    "versionCode" : 150,
     "transformPx" : false,
     "app-plus" : {
         "nvueCompiler" : "uni-app",

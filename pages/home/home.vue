@@ -26,9 +26,16 @@
 					<image class="right" src="/static/right_h.png"></image>
 				</button>
 			</view>
+			<view class="item">
+				<image class="icon" src="/static/user_hezuo.png"></image>
+				<button class="content share" @click="goToImage('https://api2.mubu.com/v3/document_image/c1bbf828-6403-4a83-867f-eb4010084100-8212768.jpg')">
+					<view>关注公众号</view>
+					<image class="right" src="/static/right_h.png"></image>
+				</button>
+			</view>
 		</view>
 		<view class="version">
-			v1.0
+			v1.5
 		</view>
 	</view>
 </template>
@@ -89,7 +96,7 @@ export default {
 
 <style lang="scss">
 page {
-	background: #f8f8f8;
+	background: #E9E9E9;
 }
 .container {
 	padding-bottom: 20rpx;

@@ -16,17 +16,18 @@
             <view @tap="play" id="startBtn">
                 <view class="inner">{{btnText}}</view>
             </view>
+			<view @tap="getLuckyMoney" id="startBtn" style="margin-top: 3px;">
+			    <view class="inner">去领大红包</view>
+			</view>
+			<view>
+			</view>
 			<!-- #ifdef MP-WEIXIN -->
 			<view class="share">
 			    <button id="shareApp" open-type="share">
 					<view class="inner">分享吃什么</view>
 				</button>
-				<button id="luckyMoney" @tap="getLuckyMoney">
-					<view class="inner">去领红包</view>
-				</button>
 			</view>
 			<!-- #endif -->
-            <text @tap="showRestaurant" id="showRestaurant">查看餐厅详情</text>
         </view>
         <view :class="status==='running'?'hide':''" id="footer">
             <view id="toggle">
@@ -491,6 +492,15 @@ export default {
 }
 
 #startBtn {
+    width: 190px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 40px;
+    background: rgba(0,0,0,.1);
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.07),0 1px hsla(0,0%,100%,.5);
+}
+#moneyBtn {
     width: 190px;
     height: 70px;
     margin: 0 auto;

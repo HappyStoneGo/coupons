@@ -182,7 +182,7 @@ export default {
 
 <style lang="scss">
 page {
-	background-color: #f8f8f8;
+	background-color:#E9E9E9;
 }
          
 
