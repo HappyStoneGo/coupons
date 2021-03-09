@@ -1,0 +1,52 @@
+{
+    "coupon": {
+        "data": [
+            {
+                "bannerPic": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-17414whos6vp2f68cb/eaf1c640-4409-11eb-8a36-ebb87efcf8c0.jpg",
+                "icon": "/static/coupon/ele.png",
+                "minapp": {
+                    "appid": "wxece3a9a4c82f58c9",
+                    "path": "taoke/pages/shopping-guide/index?scene=https://s.click.ele.me/pmp2jqu"
+                },
+                "name": "饿了么红包",
+                "tabId": 1,
+                "type": "每日领",
+                "url": "https://s.click.ele.me/pmp2jqu",
+                "desc": "饿了么红包，最高可领66元！",
+                "sort": 101
+            }
+        ],
+        "schema": {
+            "bsonType": "object",
+            "permission": {
+                ".create": false,
+                ".delete": false,
+                ".read": true,
+                ".update": false
+            }
+        }
+    },
+    "tab": {
+        "data": [
+            {
+                "icon": "/static/all.png",
+                "tabId": 0,
+                "text": "全部"
+            },
+            {
+                "icon": "/static/ele.png",
+                "tabId": 1,
+                "text": "饿了么"
+            }
+        ],
+        "schema": {
+            "bsonType": "object",
+            "permission": {
+                ".create": false,
+                ".delete": false,
+                ".read": true,
+                ".update": false
+            }
+        }
+    }
+}
